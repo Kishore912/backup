@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kishore</title>
+    </head>
+    <body>
+        <h1 id="a">HEADING</h1>
+        <p id="b">dhiuhvfkrjiunvrhkjvfn kjfxcbnvuisdrnkj</p>
+        <button id="but"> click </button>
+        <p id="c"></p>
+
+        
+
+        <script>
+            const sa = document.getElementById("but");
+            sa.addEventListener('mouseover',bye);
+            sa.addEventListener('click',hi);
+            sa.addEventListener('mouseout',hey);
+            
+            
+
+            function hi(){
+                const rr = document.getElementById("c")
+                rr.innerHTML+="clicked<br>" 
+            }
+
+            function bye(){
+                const tt = document.getElementById("c")
+                tt.innerHTML+= "mouse is over<br>"
+            }
+
+            function hey(){
+                const uu = document.getElementById("c")
+                uu.innerHTML+= "mouse is out<br>"
+            }
+
+
+        </script>
+
+    </body>
+</html>
